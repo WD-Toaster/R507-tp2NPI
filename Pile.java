@@ -23,5 +23,4 @@ public class Pile
 		}
 		return this.pile.remove(0);
 	}
-		
 }
