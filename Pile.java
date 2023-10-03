@@ -9,7 +9,7 @@ public class Pile
 		this.pile = new ArrayList<Integer>();
 	}
 	
-	public add(int c)
+	public void add(int c)
 	{
 		this.pile.add(c);
 	}
@@ -19,7 +19,7 @@ public class Pile
 		if (this.pile.size() == 0)
 		{
 			System.out.println("Pile is empty");
-			return null;
+			return -1;
 		}
 		return this.pile.remove(0);
 	}
