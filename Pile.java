@@ -23,4 +23,14 @@ public class Pile
 		}
 		return this.pile.remove(0);
 	}
+
+	public int get()
+	{
+		if (this.pile.size() == 0)
+		{
+			System.out.println("Pile is empty");
+			return -1;
+		}
+		return this.pile.get(0);
+	}
 }
